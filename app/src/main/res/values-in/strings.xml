@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Watch Movie</string>
+    <string name="tab_movie">Film</string>
+    <string name="tab_tv">Acara TV</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="api_language">id-ID</string>
+    <string name="overview">Deskripsi</string>
+    <string name="tab_favorite">Favorit</string>
+    <string name="faforite_movie">Film Favorit</string>
+    <string name="favorite_tv_show">Acara TV Favorit</string>
+    <string name="tab_search">Cari</string>
+    <string name="favorite">Favorit</string>
+    <string name="poster_path">path poster</string>
+    <string name="search_movie">Cari Film</string>
+    <string name="search_tv_show">Cari Acara TV</string>
+    <string name="empty_text">Tidak ada data untuk ditampilkan \n Pergi Mencari</string>
+    <string name="empty_favorite">Tidak Ada Favorit</string>
+    <string name="empty_data">Tidak Ada Data</string>
+    <string name="settings">Pengaturan</string>
+    <string name="daily_reminder">Pengingat setiap hari</string>
+    <string name="release_reminder">Pengingat film baru</string>
+    <string name="daily_message">Hai, ayo kembali ke Watch Movie</string>
+    <string name="release_now">Rilis Sekarang</string>
+
+</resources>

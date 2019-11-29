@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17223b"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/background_toolbar"
+                app:title="@string/favorite"
+                android:textAlignment="center"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_favorite"
+            android:id="@+id/rv_favorite"/>
+    </LinearLayout>
+
+    <ImageView
+        android:visibility="visible"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/nodata"
+        android:layout_centerInParent="true"
+        android:id="@+id/icon_empty"/>
+
+    <TextView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon_empty"
+        android:text="@string/empty_favorite"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/txt_empty"/>
+
+</RelativeLayout>

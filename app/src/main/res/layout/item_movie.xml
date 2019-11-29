@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_card"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_movie"
+            android:layout_width="88dp"
+            android:layout_height="130dp"
+            android:contentDescription="poster path"
+            android:fitsSystemWindows="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txt_title_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="#fff"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/txt_date_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oct 9, 2019"
+                android:textColor="#DADADA"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/txt_desc_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:maxLines="2"
+                android:text="Desc movie"
+                android:textColor="#DADADA"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

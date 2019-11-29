@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ConsumerMovie</string>
+    <string name="tab_movie">Movie</string>
+    <string name="tab_tv">TV show</string>
+    <string name="change_language">Change Language</string>
+    <string name="api_language">en-US</string>
+    <string name="overview">Overview</string>
+    <string name="tab_favorite">Favorites</string>
+    <string name="tab_search">Search</string>
+    <string name="faforite_movie">Favorite Movie</string>
+    <string name="favorite_tv_show">Favorite TV Show</string>
+    <string name="favorite">favorite</string>
+    <string name="poster_path">poster path</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="search_tv_show">Search TV Show</string>
+    <string name="empty_text">Not have data for show \n  Go Search</string>
+    <string name="empty_favorite">Not have Favorite</string>
+    <string name="empty_data">Empty Data</string>
+    <string name="settings">Settings</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="daily_message">Hy, Let\'s go back to Watch Movie </string>
+    <string name="release_now">Release Now</string>
+</resources>
